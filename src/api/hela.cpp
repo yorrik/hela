@@ -26,8 +26,8 @@ void hl::run() {
   World::start();
 
   while (!WindowShouldClose()) {
-    ::draw();
-    ::input();
-    ::logic();
+    draw();
+    input();
+    logic();
   }
 }
