@@ -8,8 +8,6 @@ entt::registry reg;
 
 void hl::Creatures::init() {
   for (int i = 0; i < 10; ++i) {
-    float walkspeed;
-
     const auto entity = reg.create();
     reg.emplace<Size>(entity, 20, 20);
     reg.emplace<Position>(entity, 20, (i + 3) * 20);
