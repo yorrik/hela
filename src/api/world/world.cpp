@@ -5,4 +5,4 @@ void hl::World::draw() { hl::Creatures::update(); }
 
 void hl::World::logic() {}
 
-void hl::World::start() { Creatures::start(); }
+void hl::World::init() { Creatures::init(); }

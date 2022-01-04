@@ -5,6 +5,6 @@ namespace hl {
     void update();
     void logic();
 
-    void start();
+    void init();
   }; // namespace Creatures
 } // namespace hl

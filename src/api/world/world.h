@@ -5,6 +5,6 @@ namespace hl {
     void draw();
     void logic();
 
-    void start();
+    void init();
   }; // namespace World
 } // namespace hl

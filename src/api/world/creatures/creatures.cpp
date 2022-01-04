@@ -6,7 +6,7 @@
 
 entt::registry reg;
 
-void hl::Creatures::start() {
+void hl::Creatures::init() {
   for (int i = 0; i < 10; ++i) {
     float walkspeed;
 

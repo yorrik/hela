@@ -23,7 +23,7 @@ void createWindow() {
 
 void hl::run() {
   createWindow();
-  World::start();
+  World::init();
 
   while (!WindowShouldClose()) {
     draw();
