@@ -1,2 +1,2 @@
 # hela
-Zig evolutionary simulator thing
+C++ evolution simulator thing (eventually)
